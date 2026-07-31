@@ -1,0 +1,12 @@
+<script>
+//== : compara os valores, mas faz conversão de tipo (coerção) antes de comparar
+//se os tipos forem diferentes o JavaScript tenta transformá-los para o mesmo tipo antes de decidir se são iguais.
+//=== : compara valor e tipo ao mesmo tempo, sem fazer nenhuma conversão. 
+// Se os tipos forem diferentes, já é false na hora.
+
+let idade = "25";
+let idadeNumero = 25;
+
+console.log(idade == idadeNumero);
+console.log(idade === idadeNumero);
+</script>
